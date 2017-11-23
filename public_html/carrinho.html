@@ -6,23 +6,22 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+
+        <title>OneMangas</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!--Importar a biblioteca do jQuery-->
+        <!--ordem certa da importação-->
+        <!--importar a biblioteca do jquery-->
         <script src="js/jquery-3.2.1.js"></script>
-
-        <!--Importar a biblioteca Popper-->
+        <!--importar a biblioteca poopers-->
         <script src="js/popper.js"></script>
-
-        <!--Importar a biblioteca do Bootstrap-->
+        <!--importar a biblioteca do bootstrap-->
         <script src="js/bootstrap.js"></script>
-
-        <!--Importar o CSS do Bootstrap-->
-        <link rel="stylesheet" href="css/bootstrap.css"/>
-        
+        <!--importar o css de boodstrap-->
+        <script src="css/bootstrap.css"></script>
+        <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="shortcut icon" type="image/png" href="https://img00.deviantart.net/ceb4/i/2016/172/2/1/team_gurren_lagann_logo_vector_by_iklone-da73gb2.png"/>
+
 
         <style type="text/css">
             .centralizar{
@@ -35,14 +34,14 @@ and open the template in the editor.
             .card{
                 margin: 5px;
             }
-            
+
             .card input[type="text"]{
                 width: 180px;
                 margin-right: 10px;
             }
-            
+
             .card button{
-                
+
             }
             .row{
                 margin-bottom: 10px;
@@ -60,7 +59,7 @@ and open the template in the editor.
             }
             .btnContinuar{
                 text-align: center;
-                
+
             }
             .card{
                 background-color: #d6d8d9;
@@ -68,11 +67,16 @@ and open the template in the editor.
         </style>
     </head>
     <body>
+        <br>
+        <br>
+        <br>
+        <div style="margin: auto " class="container">
+            <img  src="http://www.userlogos.org/files/logos/sstrm/onemanga.png"/>
+            <img style="float: right" src="http://centraldemangas.etc.br/img/cdm_03.png" height="229"/>
 
-        <br>
-        <br>
-        <div class="container">
-            <!--esta é a linha do topo-->
+            <!--CAROSEL!-->
+
+
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -80,22 +84,25 @@ and open the template in the editor.
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     <li data-target="#carouseExampleIndicators"  data-slide-to="3"></li>
                 </ol>
+
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="http://republikapop.com.br/wp-content/uploads/2016/05/mangas-maio-jbc.jpg" alt="First slide">
+                        <img class="d-block w-100" src="http://republikapop.com.br/wp-content/uploads/2016/05/mangas-maio-jbc.jpg" width="100" alt="First slide">
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="http://ift.tt/1JkGBE3" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="http://hyppers.com/wp-content/uploads/2016/08/Hyppers-14-Mang%C3%A1s.jpg" alt="Third slide">
 
-                    </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="http://republikapop.com.br/wp-content/uploads/2016/05/mangas-maio-jbc.jpg">
-
-
+                        <img class="d-block w-100" src="https://img.assinaja.com/assets/tZ/004/img/77265_1140x450.png" alt="Third slide">
                     </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="http://www.assinepanini.com.br/imagens/destaque_home_slam_dunk.jpg">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="http://www.assinepanini.com.br/imagens/destaque_home_marvel.jpg">
+                    </div>
+
+
 
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -121,8 +128,8 @@ and open the template in the editor.
         <div class="container">
 
             <div class="container">
-                <nav class="navbar navbar-expand-md navbar-black fixed-top bg-dark">
-                    <a class="navbar-brand" href="#"></a>
+                <nav  class="navbar navbar-expand-md  navbar-text fixed-top bg-dark">
+
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -130,7 +137,7 @@ and open the template in the editor.
                     <div  class="collapse navbar-collapse" id="navbarsExampleDefault">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">INICIO</a>
+                                <a class="nav-link" href="index.html">INICIO</a>
 
                             </li>
 
@@ -141,10 +148,9 @@ and open the template in the editor.
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Assinaturas</a>
                                 <div class="dropdown-menu" aria-labelledby="Categorias">
-                                    <a class="dropdown-item" href="#">Mais vendidos</a>
-                                    <a class="dropdown-item" href="#">Categorias</a>
-                                    <a class="dropdown-item" href="#">Antigos</a>
-                                    <a class="dropdown-item" href="#">Box Completo</a> 
+                                    <a class="dropdown-item" href="#">Minhas Assinaturas</a>
+                                    <a class="dropdown-item" href="#">Em Promoção</a>
+                                    <a class="dropdown-item" href="#">Completos</a>
 
                                 </div>
 
@@ -165,7 +171,6 @@ and open the template in the editor.
                                 <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comics</a>
                                 <div class="dropdown-menu" aria-labelledby="Categorias">
                                     <a class="dropdown-item" href="#">Mais vendidos</a>
-                                    <a class="dropdown-item" href="#">Categorias</a>
                                     <a class="dropdown-item" href="#">DC</a>
                                     <a class="dropdown-item" href="#">Marvel</a> 
                                     <a class="dropdown-item" href="#">Box Completo</a> 
@@ -175,10 +180,8 @@ and open the template in the editor.
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link " href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                    Grupos</a>
+                                <a class="nav-link " href="carrinho.html"><i class="fa fa-shopping-cart" aria-hidden="true"> </i>       Seu Carrinho</a>
                             </li>
-
 
                         </ul>
 
@@ -187,26 +190,17 @@ and open the template in the editor.
 
 
 
+                        <!--PESQUISA DE PRODUTOS!-->
 
-
-
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Procure seus Produtos" aria-label="Search">
+                            <input class="btn btn-primary" type="submit" value="Pesquisa">
+                        </form>
 
                         <!--CADSTRO E LOGIN DE USUARIOS E REDE SOCIAS!-->
 
                         <ul>
-
-                            <li  class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Social</a>
-                                <div class="dropdown-menu" aria-labelledby="Categorias">
-                                    <a class="dropdown-item" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
-                                    <a class="dropdown-item" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a>
-                                    <a class="dropdown-item" href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
-                                </div>
-                            </li>       
-
-                        </ul>
-                        <ul>
-                            <li class="nav-item dropdown">
+                            <li style="text-decoration: none" class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-users" aria-hidden="true"></i> Usuario</a>
                                 <div class="dropdown-menu" aria-labelledby="Categorias">
                                     <a class="dropdown-item" href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
@@ -215,116 +209,132 @@ and open the template in the editor.
                                 </div>
                             </li>
                         </ul>
-                        <!--PESQUISA DE PRODUTOS!-->
 
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Procure seus Produtos" aria-label="Search">
-                            <input class="btn btn-primary" type="submit" value="Pesquisa">
-                        </form>
+
                     </div>
                 </nav>
 
-            <!--.............................................................-->
 
-            <!--esta é a linha do conteúdo-->
+                    <!--.............................................................-->
 
-            <div class="row">               
+                    <!--esta é a linha do conteúdo-->
 
-                <div class="col-8">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col" class="centralizar">Item</th>
-                                <th scope="col" class="centralizar">Preço</th>
-                                <th scope="col" class="centralizar">Quantidade</th>
-                                <th scope="col" class="centralizar">Subtotal</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr >
-                                <td class="centralizar"><img class="card-img " src="http://localhost:8383/trabalhosite/index.html#" alt="">Berserk Edição - 20</td>
-                                <td class="centralizar">R$ 17,90</td>
-                                <td class="centralizar">1</td>
-                                <td class="centralizar">R$ 17,90</td>
-                            </tr>
-                            <tr>
-                                <td class="centralizar"><img class="card-img " src="" alt=""> Berserk  Edição - 1</td>
-                                <td class="centralizar">R$ 16,90</td>
-                                <td class="centralizar">1</td>
-                                <td class="centralizar">R$ 16,90</td>
-                            </tr>
-                            <tr>
-                                <td class="centralizar"><img class="card-img " src="imagens/watchmen1.png" alt=""> Ataque dos Titas</td>
-                                <td class="centralizar">R$ 13,90</td>
-                                <td class="centralizar">1</td>
-                                <td class="centralizar">R$ 13,90</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                    <div class="row">               
 
-                <div class="col-4">
-                    <div class="card" style="width: 21rem;">
-                        <div class="card-body">
-                            <h6 class="card-title">Cupom de desconto</h6>
-                            <form class="form-inline">
-                                <div class="form-group ">
-                                    <input type="text" class="form-control" id="inputPassword2" placeholder="Digite o cupom">
-                                </div>
-                                <button type="submit" class="btn btn-primary">Aplicar</button>
-                            </form>
+                        <div class="col-8">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="centralizar">Item</th>
+                                        <th scope="col" class="centralizar">Preço</th>
+                                        <th scope="col" class="centralizar">Quantidade</th>
+                                        <th scope="col" class="centralizar">Subtotal</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr >
+                                        <td class="centralizar"><img class="card-img " src="https://img.assinaja.com/assets/tZ/004/img/77004_200x200.jpg" style="float: left" alt="" >Berserk Edição - 20</td>
+                                        <td class="centralizar">R$ 17,90</td>
+                                        <td class="centralizar">1</td>
+                                        <td class="centralizar">R$ 17,90</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="centralizar"><img class="card-img " src="https://img.assinaja.com/assets/tZ/004/img/49229_200x200.jpg" style="float: left" alt=""> Berserk  Edição - 1</td>
+                                        <td class="centralizar">R$ 16,90</td>
+                                        <td class="centralizar">1</td>
+                                        <td class="centralizar">R$ 16,90</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="centralizar"><img class="card-img " src="https://img.assinaja.com/assets/tZ/004/img/76973_200x200.jpg" style="float: left" alt=""> Ataque dos Titas Edição - 22</td>
+                                        <td class="centralizar">R$ 13,90</td>
+                                        <td class="centralizar">1</td>
+                                        <td class="centralizar">R$ 13,90</td>
+
+                                    <tr>
+                                        <td class="centralizar"><img class="card-img " src="https://img.assinaja.com/assets/tZ/004/img/73321_200x200.jpg" style="float: left" alt=""> Homem-Aranha & Deadpool - Edição 7</td>
+                                        <td class="centralizar">R$ 27,90</td>
+                                        <td class="centralizar">1</td>
+                                        <td class="centralizar">R$ 27,90</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="centralizar"><img class="card-img " src="https://img.assinaja.com/assets/tZ/004/img/77859_200x200.jpg" style="float: left" alt=""> O velho Logan O ultimo Ronnin- Edição - 15</td>
+                                        <td class="centralizar">R$ 18,90</td>
+                                        <td class="centralizar">1</td>
+                                        <td class="centralizar">R$ 18,90</td>
+                                    </tr>    
+
+                                </tbody>
+                            </table>
                         </div>
-                    </div>
-                    <div class="card" style="width: 21rem;">
-                        <div class="card-body">
-                            <h6 class="card-title">Consulte o frete e prazos de entrega</h6>
-                            <form class="form-inline">
-                                <div class="form-group "><br>
-                                    <input type="text" class="form-control" id="inputPassword2" placeholder="Digite seu CEP">
+
+                        <div class="col-4">
+                            <div class="card" style="width: 21rem;">
+                                <div class="card-body">
+                                    <h6 class="card-title">Cupom de desconto</h6>
+                                    <form class="form-inline">
+                                        <div class="form-group ">
+                                            <input type="text" class="form-control" id="inputPassword2" placeholder="Digite o cupom">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Aplicar</button>
+                                    </form>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Consultar</button><br/>
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input class="form-check-input" type="checkbox"> Frete Internacional
-                                        </label>
-                                    </div>
+                            </div>
+                            <div class="card" style="width: 21rem;">
+                                <div class="card-body">
+                                    <h6 class="card-title">Consulte o frete e prazos de entrega</h6>
+                                    <form class="form-inline">
+                                        <div class="form-group "><br>
+                                            <input type="text" class="form-control" id="inputPassword2" placeholder="Digite seu CEP">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Consultar</button><br/>
+                                        <div class="form-group">
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox"> Frete Internacional
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
-                            </form>
+                            </div>
+                            <div class="card" style="width: 21rem;">
+                                <div class="card-body">
+
+                                    <h5 class="card-title form-check-inline">SUBTOTAL</h5>
+                                    <input type="text" readonly class="form-control-plaintext" id="valorSubTotal" value="R$ 48,70">
+                                    <h3 class="card-title form-check-inline">TOTAL</h3>
+                                    <input type="text" readonly class="form-control-plaintext" id="valorTotal" value="R$ 48,70">
+
+                                    <a href="#" class="btn btn-primary centralizar">Continuar</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card" style="width: 21rem;">
-                        <div class="card-body">
-                            
-                            <h5 class="card-title form-check-inline">SUBTOTAL</h5>
-                            <input type="text" readonly class="form-control-plaintext" id="valorSubTotal" value="R$ 164,14">
-                            <h3 class="card-title form-check-inline">TOTAL</h3>
-                            <input type="text" readonly class="form-control-plaintext" id="valorTotal" value="R$ 164,14">
-                            
-                            <a href="#" class="btn btn-primary centralizar">Continuar</a>
-                        </div>
-                    </div>
+                    </div>    
+                    <!--.............................................................-->
+
+                    <!--esta é a linha do rodapé-->
+
+                    <hr>
+                    <div class="conntainer">
+
+
+
+                    
+                        <img  style="float: right" src="https://1.bp.blogspot.com/-rMcgObZDk3E/V66DpNiiH1I/AAAAAAAALXM/Ms9PngHiSlIm7-64j_Vptk2RL5tC2WC2wCLcB/s1600/Untitledss.png" width="200">
+
+                 
+
+                    <footer class="container">
+                        <p>Formas De Pagamentos</p>
+                        <img src="http://www.ibyte.com.br/media/wysiwyg/formas-pagamento.png">
+
+                    </footer>
+
+                    <footer class="container" style="text-align: center"> 
+                        <p>&copy;ONEmangas 2015-2017</p>
+                    </footer>
+
                 </div>
-            </div>    
-            <!--.............................................................-->
-
-            <!--esta é a linha do rodapé-->
-            <div class="row ">
-
-                <div class="col">
-                    <h4>Atendimento</h4>
-                </div>
-
-                <div class="col">
-                    <h4>Sobre nós</h4>
-                </div>
-
-                <div class="col">
-                    <h4>Pagamento</h4>
-                </div>
-
-            </div>
-
-        </div>
-    </body>
-</html>
+                    </body>
+                    </html>
